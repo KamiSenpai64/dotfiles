@@ -193,7 +193,7 @@ set $urgent-bg-color     #E53935
 set $transparent #1d2021A0
 
 bar {
-       # status_command i3bar-mux myi3status i3status
+    # status_command i3bar-mux myi3status i3status
 	status_command i3blocks
 	position top
 	colors {
