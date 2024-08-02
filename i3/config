@@ -216,3 +216,5 @@ for_window [class="^.*"] border pixel 0
 
 exec_always feh --bg-fill /home/$USER/Pictures/wallpaper.jpg
 exec_always picom
+
+bindsym $mod+Shift+x exec betterlockscreen -l
