@@ -60,6 +60,9 @@ bindsym $mod+p exec --no-startup-id rofi -show drun
 # start a web browser
 bindsym $mod+f exec --no-startup-id firefox
 
+# take screenshot
+bindsym Mod1+Shift+s exec flameshot
+
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
