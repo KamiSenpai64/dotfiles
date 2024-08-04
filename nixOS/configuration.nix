@@ -121,6 +121,7 @@ services= {
 	zsh
 	fastfetch
 	btop
+	nerdfonts
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
