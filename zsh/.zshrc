@@ -113,7 +113,7 @@ PATH="$HOME/.tmuxifier/bin:$PATH"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls="eza --icons"
 alias dots="z dotfiles"
-alias creds="z creds"
+alias nix-git="z nixOS"
 
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 eval "$(zoxide init zsh)"
