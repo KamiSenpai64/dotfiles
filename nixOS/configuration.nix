@@ -125,6 +125,7 @@
 	nerdfonts
 	eza
 	zoxide
+	yt-dlp
   ];
 
   ##fonts##
