@@ -48,21 +48,6 @@ set wildmode=list:longest
 
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
-" PLUGINS ---------------------------------------------------------------- {{{
-
-call plug#begin('~/.vim/plugged')
-    
-  Plug 'dense-analysis/ale'
-  Plug 'preservim/nerdtree'
-  
-  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-  Plug 'junegunn/fzf.vim'
-
-call plug#end()
-
-" }}}
-
-
 " MAPPINGS --------------------------------------------------------------- {{{
 
 nmap <F3> :NERDTreeToggle<CR>
