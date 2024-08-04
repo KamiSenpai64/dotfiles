@@ -48,7 +48,7 @@
   # Enable the X11 windowing system.
   # services.xserver.enable = true;
 
-services= {
+ services= {
     xserver = {
 	enable = true;
 	    windowManager.i3 = {
@@ -64,6 +64,8 @@ services= {
 		};
 	    };
 	};
+
+  programs.zsh.enable = true;
 
   # Configure keymap in X11
   # services.xserver.xkb.layout = "us";
@@ -83,15 +85,14 @@ services= {
   # Enable touchpad support (enabled default in most desktopManager).
   # services.libinput.enable = true;
 
-  # Define a user account. Don't forget to set a password with ‘passwd’.
-  # users.users.alice = {
-  #   isNormalUser = true;
-  #   extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
-  #   packages = with pkgs; [
-  #     firefox
-  #     tree
-  #   ];
-  # };
+  users.users.daniel = {
+  isNormalUser  = true;
+  home  = "/home/daniel";
+  description  = "that dawg";
+  extraGroups  = [ "wheel" "networkmanager" ];
+  };
+ 
+  users.defaultUserShell = pkgs.zsh; 
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
