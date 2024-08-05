@@ -63,6 +63,9 @@ bindsym $mod+f exec --no-startup-id firefox
 # take screenshot
 bindsym Mod1+Shift+s exec flameshot
 
+# start a minecraft launcher
+bindsym Mod1+Shift+m exec prismlauncher
+
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
