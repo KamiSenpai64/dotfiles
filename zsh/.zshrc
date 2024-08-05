@@ -114,6 +114,7 @@ PATH="$HOME/.tmuxifier/bin:$PATH"
 alias ls="eza --icons -lah"
 alias dots="z dotfiles"
 alias nix-git="z nixOS"
+alias home="vim /home/$USER/.config/home-manager/home.nix"
 
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 eval "$(zoxide init zsh)"
